@@ -75,6 +75,7 @@ button.btn_secodary {
 .middle .left img {
   max-width: 100%;
   height: auto;
+  display:block;
 }
 .middle .right {
   text-align: end;
