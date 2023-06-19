@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* Header start */
+header {
+  background: #ffd868;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .left h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  color: #721b65;
+}
+.hero .left p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 20px 0;
+}
+button.btn_primary {
+  padding: 16px 18px;
+  width: 273px;
+  height: 56px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 0;
+  margin-right: 20px;
+}
+button.btn_secodary {
+  padding: 16px 18px;
+  width: 273px;
+  height: 56px;
+  background: #721b65;
+  border-radius: 10px;
+  border: 0;
+  color: #ffffff;
+}
+/* Header end */
+
+/* Middle start */
+
+.middle {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle .left {
+  width: 46%;
+  background-image: url(./);
+}
+.middle .left img {
+  max-width: 100%;
+  height: auto;
+}
+.middle .right {
+  text-align: end;
+  width: 48%;
+}
+.middle .right p {
+  margin: 15px 0 30px 0;
+}
+.middle .right span {
+  color: black;
+}
+
+.middle .right h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 73px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* Middle start */
+/* Carousel Start */
+.carousel {
+  background: #ffd868;
+  padding-bottom: 60px;
+}
+.carousel .section_title {
+  padding: 30px 0;
+}
+.carousel h1 {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 73px;
+  text-align: center;
+  color: #721b65;
+}
+.carousel_img {
+  display: flex;
+  justify-content: space-between;
+}
+.img_box_01 {
+  background: url("../img/carousel_img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 380px;
+  position: relative;
+}
+
+.profile_01 {
+  width: 100%;
+  background: #721b65;
+  color: #ffffff;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+.carousel_img .img_box_02 {
+  background-image: url("../img/carousel_img-02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 30%;
+  height: auto;
+}
+.profile_02 {
+  width: 100%;
+  background: #721b65;
+  color: #ffffff;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+.carousel_img .img_box_03 {
+  background-image: url("../img/carousel_img_03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 30%;
+  height: auto;
+}
+.profile_03 {
+  width: 100%;
+  background: #721b65;
+  color: #ffffff;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+/* Footer Start */
+.footer_text {
+  padding: 60px 0;
+}
+.footer_text h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 73px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+}
+.footer_text span {
+  color: black;
+}
+.footer_text p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.footer_bottom_item {
+  display: flex;
+  flex-direction: column;
+  gap: 126px;
+  align-items: center;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.social a {
+  width: 111px;
+  height: 111px;
+  background: #721b65;
+  padding: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social a img {
+  width: 35px;
+}
